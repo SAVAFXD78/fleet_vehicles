@@ -1,1 +1,3 @@
-# fleet_vehicles
+Aquí le envio la tarea que nos envio esta semana, cada clase esta especificada con que métodos SOLID fue desarrollada, y a esta tambien le anexo el arqueotipo. Intente hacer lo que mas pude porque la verdad he trabajado muy poco con JavaScript y con esta tarea intente aprender bastante, viendo tutoriales y apoyandome de diversos materiales que me sirvieron mucho. Si alguna novedad, estaré atento y muchas gracias profe por todo.
+
+NOTA: El código fue desarrollado en la aplicación de Eclipse Workspace ya que fue desarrollado en los computadores de la Universidad Católica de Oriente (UCO), por lo tanto para su funcionalidad deberas descargar el programa y abrir con el mismo
