@@ -1,0 +1,34 @@
+Consulta sobre los 12 factores en programación de Software:
+
+Gestión del Código y Despliegue:
+
+1. Código Base (Codebase): Un único repositorio de código versionado para todos los despliegues. Una app, un repo.
+2. Construir, Lanzar, Ejecutar (Build, Release, Run): Separar las etapas de construcción, lanzamiento y ejecución. Despliegues atómicos y reversibles.
+3. Entornos de Desarrollo/Producción (Dev/Prod Parity): Mantener la máxima similitud entre entornos. Menos sorpresas en producción.
+
+Dependencias y Configuración:
+
+4. Dependencias (Dependencies): Declarar y aislar las dependencias explícitamente. Reproducibilidad y menos conflictos.
+5. Configuración (Config): Almacenar la configuración en variables de entorno. Configuración externa al código.
+6. Servicios de Respaldo (Backing Services): Tratar los servicios de respaldo como recursos adjuntos. Intercambiabilidad de servicios.
+
+Escalabilidad y Concurrencia:
+
+7. Procesos (Processes): Ejecutar la aplicación como procesos sin estado. Escalabilidad horizontal.
+8. Concurrencia (Concurrency): Escalar mediante la ejecución de múltiples procesos. Manejo de alta demanda.
+9. Desechabilidad (Disposability): Procesos de inicio rápido y apagado elegante. Resiliencia y despliegues rápidos.
+
+Comunicación y Observabilidad:
+
+10. Enlace de Puertos (Port Binding): Exponer servicios a través de enlaces de puertos. Integración con otros sistemas.
+11. Registros (Logs): Tratar los registros como flujos de eventos. Centralización y análisis de logs.
+12.Procesos Administrativos (Admin Processes): Ejecutar tareas administrativas como procesos únicos. Aislamiento de tareas administrativas.
+
+
+*Sacrificios vs Beneficios:
+
+Escalabilidad vs. Complejidad operacional
+Disponibilidad vs. Comunicación entre servicios
+modularidad y mantenimiento vs. Consistencia de datos
+Flexibilidad técnologica vs. Pruebas
+Despliegue continuo vs. Seguridad
